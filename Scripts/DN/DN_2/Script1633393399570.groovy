@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://live.techpanda.org/index.php/customer/account/login/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Customer Login/input__loginusername'), user)
+
+WebUI.setText(findTestObject('Object Repository/Page_Customer Login/input__loginpassword'), pass)
+
+WebUI.click(findTestObject('Object Repository/Page_Customer Login/button_Login'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Customer Login/span_Invalid login or password'), 'Invalid login or password.')
+
