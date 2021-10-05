@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite_DN" time="446.724" tests="5" failures="0" errors="0">
+   <testsuite name="Test Suite_DN" tests="5" failures="0" errors="0" time="446.724" skipped="0" timestamp="2021-10-05 14:56:06" hostname="Trang Nina - DESKTOP-999C2HD" id="Test Suites/Test Suite_DN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Trang fuji\\git\\Demo_Git\\Reports\\20211005_145433\\Test Suite_DN\\20211005_145551"/>
+         <property name="logFiles" value="C:\\Users\\Trang fuji\\git\\Demo_Git\\Reports\\20211005_145433\\Test Suite_DN\\20211005_145551\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trang Nina - DESKTOP-999C2HD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.71"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="7cac7105ad61254ad8fe6b7808c2a7fd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DN/DN_1" time="107.797" classname="Test Cases/DN/DN_1" status="PASSED">
+         <system-out><![CDATA[2021-10-05 14:56:09 - [TEST_CASE][PASSED] - Test Cases/DN/DN_1: Test Cases/DN/DN_1
+
+2021-10-05 14:56:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-05 14:56:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-05 14:56:11 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-05 14:56:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-05 14:57:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-05 14:57:07 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 14:57:21 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 14:57:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginusername"), user): Text 'hanh82643@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 14:57:48 - [MESSAGE][PASSED] - Text 'hanh82643@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 14:57:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginpassword"), pass): Text 'honghanh28' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 14:57:49 - [MESSAGE][PASSED] - Text 'honghanh28' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 14:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Login")): Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 14:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 14:57:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_My Account/strong_Hello, Hnh Trng"), "Hello, Hạnh Trương!"): Actual text and expected text of test object 'Object Repository/Page_My Account/strong_Hello, Hnh Trng' are matched.
+
+2021-10-05 14:57:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_My Account/strong_Hello, Hnh Trng' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DN/DN_2" time="95.167" classname="Test Cases/DN/DN_2" status="PASSED">
+         <system-out><![CDATA[2021-10-05 14:57:57 - [TEST_CASE][PASSED] - Test Cases/DN/DN_2: Test Cases/DN/DN_2
+
+2021-10-05 14:57:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-05 14:57:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-05 14:58:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-05 14:58:02 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-05 14:58:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-05 14:58:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-05 14:58:53 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 14:59:21 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 14:59:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginusername"), user): Text 'truonghonghanh2808@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 14:59:27 - [MESSAGE][PASSED] - Text 'truonghonghanh2808@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 14:59:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginpassword"), pass): Text '1234567' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 14:59:28 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 14:59:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Login")): Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 14:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 14:59:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Customer Login/span_Invalid login or password"), "Invalid login or password."): Actual text and expected text of test object 'Object Repository/Page_Customer Login/span_Invalid login or password' are matched.
+
+2021-10-05 14:59:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Customer Login/span_Invalid login or password' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DN/DN_3" time="69.335" classname="Test Cases/DN/DN_3" status="PASSED">
+         <system-out><![CDATA[2021-10-05 14:59:32 - [TEST_CASE][PASSED] - Test Cases/DN/DN_3: Test Cases/DN/DN_3
+
+2021-10-05 14:59:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-05 14:59:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-05 14:59:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-05 14:59:35 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-05 14:59:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-05 14:59:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-05 14:59:56 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 15:00:04 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 15:00:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginusername"), user): Text 'truonghonghanh2808@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 15:00:07 - [MESSAGE][PASSED] - Text 'truonghonghanh2808@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 15:00:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginpassword"), pass): Text '' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 15:00:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 15:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Login")): Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 15:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 15:00:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Customer Login/div_This is a required field"), "This is a required field."): Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_This is a required field' are matched.
+
+2021-10-05 15:00:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='advice-required-entry-email']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-05 15:00:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Customer Login/div_This is a required field'. Try using Self-healing.
+
+2021-10-05 15:00:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Customer Login/div_This is a required field' was broken. Propose an alternative one: '//form[@id='login-form']/div/div[2]/div/ul/li/div/div'.
+
+2021-10-05 15:00:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_This is a required field' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DN/DN_4" time="63.866" classname="Test Cases/DN/DN_4" status="PASSED">
+         <system-out><![CDATA[2021-10-05 15:00:41 - [TEST_CASE][PASSED] - Test Cases/DN/DN_4: Test Cases/DN/DN_4
+
+2021-10-05 15:00:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-05 15:00:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-05 15:00:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-05 15:00:44 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-05 15:00:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-05 15:01:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-05 15:01:10 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 15:01:38 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 15:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginusername"), user): Text '' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 15:01:43 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 15:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginpassword"), pass): Text '' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 15:01:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 15:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Login")): Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 15:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 15:01:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Customer Login/div_This is a required field"), "This is a required field."): Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_This is a required field' are matched.
+
+2021-10-05 15:01:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_This is a required field' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DN/DN_5" time="80.679" classname="Test Cases/DN/DN_5" status="PASSED">
+         <system-out><![CDATA[2021-10-05 15:01:45 - [TEST_CASE][PASSED] - Test Cases/DN/DN_5: Test Cases/DN/DN_5
+
+2021-10-05 15:01:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-05 15:01:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-05 15:01:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-05 15:01:47 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-05 15:01:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-05 15:02:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-05 15:02:13 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/customer/account/login/"): Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 15:02:21 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/customer/account/login/' successfully
+
+2021-10-05 15:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginusername"), user): Text 'hanh123@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 15:02:23 - [MESSAGE][PASSED] - Text 'hanh123@gmail.com' is set on object 'Object Repository/Page_Customer Login/input__loginusername'
+
+2021-10-05 15:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Login/input__loginpassword"), pass): Text '' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 15:02:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Customer Login/input__loginpassword'
+
+2021-10-05 15:02:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Login/button_Login")): Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 15:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Login/button_Login' is clicked on
+
+2021-10-05 15:02:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Customer Login/div_This is a required field"), "This is a required field."): Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_This is a required field' are matched.
+
+2021-10-05 15:02:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='advice-required-entry-email']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-05 15:02:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Customer Login/div_This is a required field'. Try using Self-healing.
+
+2021-10-05 15:02:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Customer Login/div_This is a required field' was broken. Propose an alternative one: '//form[@id='login-form']/div/div[2]/div/ul/li/div/div'.
+
+2021-10-05 15:03:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Customer Login/div_This is a required field' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-05 14:56:06 - [TEST_SUITE][PASSED] - Test Suite_DN: Test Cases/DN/DN_5]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

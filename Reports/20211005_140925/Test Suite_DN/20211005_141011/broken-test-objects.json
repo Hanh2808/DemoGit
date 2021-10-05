@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Customer Login/div_This is a required field",
+      "brokenLocator": "//div[@id\u003d\u0027advice-required-entry-email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027login-form\u0027]/div/div[2]/div/ul/li/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20211005_140925/Test Suite_DN/20211005_141011/Object Repository/Page_Customer Login/div_This is a required field_idRelative.png"
+    }
+  ]
+}

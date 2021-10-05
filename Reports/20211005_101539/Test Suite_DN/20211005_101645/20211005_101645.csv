@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_DN,Chrome 94.0.4606.71,,,2021-10-05 10:16:58,2021-10-05 10:23:30,6m - 31.822s,FAILED
+,,,,,,,
+Test Cases/DN/DN_1,Chrome 94.0.4606.71,,,2021-10-05 10:17:00,2021-10-05 10:17:33,32.754s,FAILED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-05 10:17:01,2021-10-05 10:17:33,31.776s,FAILED
+,,,,,,,
+Test Cases/DN/DN_2,Chrome 94.0.4606.71,,,2021-10-05 10:17:33,2021-10-05 10:21:01,3m - 28.206s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-05 10:17:33,2021-10-05 10:19:44,2m - 11.045s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-05 10:19:44,2021-10-05 10:20:40,56.078s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginusername""), user)",Chrome 94.0.4606.71,,,2021-10-05 10:20:40,2021-10-05 10:20:52,11.675s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginpassword""), pass)",Chrome 94.0.4606.71,,,2021-10-05 10:20:52,2021-10-05 10:20:53,0.938s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Login""))",Chrome 94.0.4606.71,,,2021-10-05 10:20:53,2021-10-05 10:20:58,5.337s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Customer Login/span_Invalid login or password""), ""Invalid login or password."")",Chrome 94.0.4606.71,,,2021-10-05 10:20:58,2021-10-05 10:21:01,2.529s,PASSED
+,,,,,,,
+Test Cases/DN/DN_3,Chrome 94.0.4606.71,,,2021-10-05 10:21:01,2021-10-05 10:22:24,1m - 22.844s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-05 10:21:02,2021-10-05 10:21:42,40.439s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-05 10:21:42,2021-10-05 10:21:48,6.366s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginusername""), user)",Chrome 94.0.4606.71,,,2021-10-05 10:21:48,2021-10-05 10:21:50,2.158s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginpassword""), pass)",Chrome 94.0.4606.71,,,2021-10-05 10:21:50,2021-10-05 10:21:51,0.725s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Login""))",Chrome 94.0.4606.71,,,2021-10-05 10:21:51,2021-10-05 10:21:52,0.456s,PASSED
+"verifyElementText(findTestObject(""Page_Customer Login/div_This is a required field""), ""This is a required field."")",Chrome 94.0.4606.71,,,2021-10-05 10:21:52,2021-10-05 10:22:24,32.099s,PASSED
+,,,,,,,
+Test Cases/DN/DN_4,Chrome 94.0.4606.71,,,2021-10-05 10:22:24,2021-10-05 10:22:43,19.096s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-05 10:22:24,2021-10-05 10:22:32,7.632s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-05 10:22:32,2021-10-05 10:22:39,7.309s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginusername""), user)",Chrome 94.0.4606.71,,,2021-10-05 10:22:39,2021-10-05 10:22:41,2.036s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginpassword""), pass)",Chrome 94.0.4606.71,,,2021-10-05 10:22:41,2021-10-05 10:22:42,0.756s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Login""))",Chrome 94.0.4606.71,,,2021-10-05 10:22:42,2021-10-05 10:22:42,0.467s,PASSED
+"verifyElementText(findTestObject(""Page_Customer Login/div_This is a required field""), ""This is a required field."")",Chrome 94.0.4606.71,,,2021-10-05 10:22:42,2021-10-05 10:22:43,0.504s,PASSED
+,,,,,,,
+Test Cases/DN/DN_5,Chrome 94.0.4606.71,,,2021-10-05 10:22:43,2021-10-05 10:23:30,46.862s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-05 10:22:43,2021-10-05 10:22:48,5.170s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/customer/account/login/"")",Chrome 94.0.4606.71,,,2021-10-05 10:22:48,2021-10-05 10:22:55,6.165s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginusername""), user)",Chrome 94.0.4606.71,,,2021-10-05 10:22:55,2021-10-05 10:22:56,1.779s,PASSED
+"setText(findTestObject(""Object Repository/Page_Customer Login/input__loginpassword""), pass)",Chrome 94.0.4606.71,,,2021-10-05 10:22:56,2021-10-05 10:22:57,0.755s,PASSED
+"click(findTestObject(""Object Repository/Page_Customer Login/button_Login""))",Chrome 94.0.4606.71,,,2021-10-05 10:22:57,2021-10-05 10:22:58,0.406s,PASSED
+"verifyElementText(findTestObject(""Page_Customer Login/div_This is a required field""), ""This is a required field."")",Chrome 94.0.4606.71,,,2021-10-05 10:22:58,2021-10-05 10:23:30,32.167s,PASSED
