@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/DN/DN_1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>d0d6495e-60ca-48b1-aa7c-da3171adbf3c</id>
+         <id>9f22d478-f05a-4a89-afc8-b792b41803c9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -26,13 +26,13 @@
          <testDataId>Data Files/DN/Test Data_DN1</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>d0d6495e-60ca-48b1-aa7c-da3171adbf3c</testDataLinkId>
+         <testDataLinkId>9f22d478-f05a-4a89-afc8-b792b41803c9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>user</value>
          <variableId>1ee51b3f-77d1-4d6d-beea-b7494e6a0212</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>d0d6495e-60ca-48b1-aa7c-da3171adbf3c</testDataLinkId>
+         <testDataLinkId>9f22d478-f05a-4a89-afc8-b792b41803c9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>pass</value>
          <variableId>d9689f51-445f-4cb2-85b6-95b85cb5e0d1</variableId>
