@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite_Edit" time="291.531" tests="3" failures="0" errors="0">
+   <testsuite name="Test Suite_Edit" tests="3" failures="0" errors="0" time="291.531" skipped="0" timestamp="2021-10-06 08:25:53" hostname="Trang Nina - DESKTOP-999C2HD" id="Test Suites/Test Suite_Edit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Trang fuji\\git\\Demo_Git\\Reports\\20211006_082543\\Test Suite_Edit\\20211006_082543"/>
+         <property name="logFiles" value="C:\\Users\\Trang fuji\\git\\Demo_Git\\Reports\\20211006_082543\\Test Suite_Edit\\20211006_082543\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Trang Nina - DESKTOP-999C2HD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.71"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="b8cac373edc89a5779a5215bb08e23dc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Edit/TC1" time="103.171" classname="Test Cases/Edit/TC1" status="PASSED">
+         <system-out><![CDATA[2021-10-06 08:25:54 - [TEST_CASE][PASSED] - Test Cases/Edit/TC1: Test Cases/Edit/TC1
+
+2021-10-06 08:25:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-06 08:25:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-06 08:26:00 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-06 08:26:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-06 08:26:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-06 08:26:14 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/"): Navigate to 'http://live.techpanda.org/index.php/' successfully
+
+2021-10-06 08:26:19 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/' successfully
+
+2021-10-06 08:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home page/a_Mobile")): Object: 'Object Repository/Page_Home page/a_Mobile' is clicked on
+
+2021-10-06 08:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home page/a_Mobile' is clicked on
+
+2021-10-06 08:26:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mobile/button_Add to Cart")): Object: 'Object Repository/Page_Mobile/button_Add to Cart' is clicked on
+
+2021-10-06 08:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mobile/button_Add to Cart' is clicked on
+
+2021-10-06 08:26:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Shopping Cart/input_500.00_cart163965qty"), edit): Text '1000' is set on object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'
+
+2021-10-06 08:27:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='cart[163965][qty]']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-06 08:27:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'. Try using Self-healing.
+
+2021-10-06 08:27:00 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty' was broken. Propose an alternative one: '//table[@id='shopping-cart-table']/tbody/tr/td[4]/input'.
+
+2021-10-06 08:27:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='cart[163965][qty]']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-06 08:27:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'. Try using Self-healing.
+
+2021-10-06 08:27:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty' was broken. Propose an alternative one: '//table[@id='shopping-cart-table']/tbody/tr/td[4]/input'.
+
+2021-10-06 08:27:33 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'
+
+2021-10-06 08:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Shopping Cart/button_Update")): Object: 'Object Repository/Page_Shopping Cart/button_Update' is clicked on
+
+2021-10-06 08:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shopping Cart/button_Update' is clicked on
+
+2021-10-06 08:27:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Shopping Cart/p_The maximum quantity allowed for purchase is 500"), "* The maximum quantity allowed for purchase is 500."): Actual text and expected text of test object 'Object Repository/Page_Shopping Cart/p_The maximum quantity allowed for purchase is 500' are matched.
+
+2021-10-06 08:27:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Shopping Cart/p_The maximum quantity allowed for purchase is 500' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit/TC2" time="90.348" classname="Test Cases/Edit/TC2" status="PASSED">
+         <system-out><![CDATA[2021-10-06 08:27:38 - [TEST_CASE][PASSED] - Test Cases/Edit/TC2: Test Cases/Edit/TC2
+
+2021-10-06 08:27:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-06 08:27:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-06 08:27:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-06 08:27:40 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-06 08:27:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-06 08:27:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-06 08:27:46 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/"): Navigate to 'http://live.techpanda.org/index.php/' successfully
+
+2021-10-06 08:27:53 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/' successfully
+
+2021-10-06 08:27:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home page/a_Mobile")): Object: 'Object Repository/Page_Home page/a_Mobile' is clicked on
+
+2021-10-06 08:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home page/a_Mobile' is clicked on
+
+2021-10-06 08:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mobile/button_Add to Cart")): Object: 'Object Repository/Page_Mobile/button_Add to Cart' is clicked on
+
+2021-10-06 08:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mobile/button_Add to Cart' is clicked on
+
+2021-10-06 08:28:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Shopping Cart/input_500.00_cart163965qty"), edit): Text '50' is set on object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'
+
+2021-10-06 08:28:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='cart[163965][qty]']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-06 08:28:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'. Try using Self-healing.
+
+2021-10-06 08:28:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty' was broken. Propose an alternative one: '//table[@id='shopping-cart-table']/tbody/tr/td[4]/input'.
+
+2021-10-06 08:29:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='cart[163965][qty]']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-06 08:29:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'. Try using Self-healing.
+
+2021-10-06 08:29:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty' was broken. Propose an alternative one: '//table[@id='shopping-cart-table']/tbody/tr/td[4]/input'.
+
+2021-10-06 08:29:04 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'
+
+2021-10-06 08:29:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Shopping Cart/button_Update")): Object: 'Object Repository/Page_Shopping Cart/button_Update' is clicked on
+
+2021-10-06 08:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shopping Cart/button_Update' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit/TC3" time="83.126" classname="Test Cases/Edit/TC3" status="PASSED">
+         <system-out><![CDATA[2021-10-06 08:29:08 - [TEST_CASE][PASSED] - Test Cases/Edit/TC3: Test Cases/Edit/TC3
+
+2021-10-06 08:29:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-06 08:29:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-10-06 08:29:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-06 08:29:11 - [MESSAGE][INFO] - User set preference: ['arg', '[--disable-gpu]']
+
+2021-10-06 08:29:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-06 08:29:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-06 08:29:16 - [TEST_STEP][PASSED] - navigateToUrl("http://live.techpanda.org/index.php/"): Navigate to 'http://live.techpanda.org/index.php/' successfully
+
+2021-10-06 08:29:21 - [MESSAGE][PASSED] - Navigate to 'http://live.techpanda.org/index.php/' successfully
+
+2021-10-06 08:29:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home page/a_Mobile")): Object: 'Object Repository/Page_Home page/a_Mobile' is clicked on
+
+2021-10-06 08:29:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home page/a_Mobile' is clicked on
+
+2021-10-06 08:29:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mobile/button_Add to Cart")): Object: 'Object Repository/Page_Mobile/button_Add to Cart' is clicked on
+
+2021-10-06 08:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mobile/button_Add to Cart' is clicked on
+
+2021-10-06 08:29:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Shopping Cart/input_500.00_cart163965qty"), edit): Text 'a' is set on object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'
+
+2021-10-06 08:29:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='cart[163965][qty]']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-06 08:29:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'. Try using Self-healing.
+
+2021-10-06 08:29:59 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty' was broken. Propose an alternative one: '//table[@id='shopping-cart-table']/tbody/tr/td[4]/input'.
+
+2021-10-06 08:30:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='cart[163965][qty]']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-06 08:30:30 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'. Try using Self-healing.
+
+2021-10-06 08:30:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty' was broken. Propose an alternative one: '//table[@id='shopping-cart-table']/tbody/tr/td[4]/input'.
+
+2021-10-06 08:30:30 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'
+
+2021-10-06 08:30:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Shopping Cart/button_Update")): Object: 'Object Repository/Page_Shopping Cart/button_Update' is clicked on
+
+2021-10-06 08:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Shopping Cart/button_Update' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-06 08:25:53 - [TEST_SUITE][PASSED] - Test Suite_Edit: Test Cases/Edit/TC3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

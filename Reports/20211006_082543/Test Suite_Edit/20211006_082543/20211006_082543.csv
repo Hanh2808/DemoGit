@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_Edit,Chrome 94.0.4606.71,,,2021-10-06 08:25:53,2021-10-06 08:30:31,4m - 37.853s,PASSED
+,,,,,,,
+Test Cases/Edit/TC1,Chrome 94.0.4606.71,,,2021-10-06 08:25:54,2021-10-06 08:27:37,1m - 43.171s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-06 08:25:55,2021-10-06 08:26:14,18.098s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/"")",Chrome 94.0.4606.71,,,2021-10-06 08:26:14,2021-10-06 08:26:19,5.430s,PASSED
+"click(findTestObject(""Object Repository/Page_Home page/a_Mobile""))",Chrome 94.0.4606.71,,,2021-10-06 08:26:19,2021-10-06 08:26:24,5.224s,PASSED
+"click(findTestObject(""Object Repository/Page_Mobile/button_Add to Cart""))",Chrome 94.0.4606.71,,,2021-10-06 08:26:24,2021-10-06 08:26:28,4.265s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shopping Cart/input_500.00_cart163965qty""), edit)",Chrome 94.0.4606.71,,,2021-10-06 08:26:28,2021-10-06 08:27:33,1m - 4.271s,PASSED
+"click(findTestObject(""Object Repository/Page_Shopping Cart/button_Update""))",Chrome 94.0.4606.71,,,2021-10-06 08:27:33,2021-10-06 08:27:37,3.844s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Shopping Cart/p_The maximum quantity allowed for purchase is 500""), ""* The maximum quantity allowed for purchase is 500."")",Chrome 94.0.4606.71,,,2021-10-06 08:27:37,2021-10-06 08:27:37,0.948s,PASSED
+,,,,,,,
+Test Cases/Edit/TC2,Chrome 94.0.4606.71,,,2021-10-06 08:27:38,2021-10-06 08:29:08,1m - 30.348s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-06 08:27:39,2021-10-06 08:27:46,7.836s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/"")",Chrome 94.0.4606.71,,,2021-10-06 08:27:46,2021-10-06 08:27:53,6.514s,PASSED
+"click(findTestObject(""Object Repository/Page_Home page/a_Mobile""))",Chrome 94.0.4606.71,,,2021-10-06 08:27:53,2021-10-06 08:27:56,2.892s,PASSED
+"click(findTestObject(""Object Repository/Page_Mobile/button_Add to Cart""))",Chrome 94.0.4606.71,,,2021-10-06 08:27:56,2021-10-06 08:28:01,4.885s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shopping Cart/input_500.00_cart163965qty""), edit)",Chrome 94.0.4606.71,,,2021-10-06 08:28:01,2021-10-06 08:29:04,1m - 3.656s,PASSED
+"click(findTestObject(""Object Repository/Page_Shopping Cart/button_Update""))",Chrome 94.0.4606.71,,,2021-10-06 08:29:04,2021-10-06 08:29:08,3.467s,PASSED
+,,,,,,,
+Test Cases/Edit/TC3,Chrome 94.0.4606.71,,,2021-10-06 08:29:08,2021-10-06 08:30:31,1m - 23.126s,PASSED
+"openBrowser("""")",Chrome 94.0.4606.71,,,2021-10-06 08:29:09,2021-10-06 08:29:16,6.713s,PASSED
+"navigateToUrl(""http://live.techpanda.org/index.php/"")",Chrome 94.0.4606.71,,,2021-10-06 08:29:16,2021-10-06 08:29:21,4.637s,PASSED
+"click(findTestObject(""Object Repository/Page_Home page/a_Mobile""))",Chrome 94.0.4606.71,,,2021-10-06 08:29:21,2021-10-06 08:29:24,3.541s,PASSED
+"click(findTestObject(""Object Repository/Page_Mobile/button_Add to Cart""))",Chrome 94.0.4606.71,,,2021-10-06 08:29:24,2021-10-06 08:29:27,2.887s,PASSED
+"setText(findTestObject(""Object Repository/Page_Shopping Cart/input_500.00_cart163965qty""), edit)",Chrome 94.0.4606.71,,,2021-10-06 08:29:27,2021-10-06 08:30:30,1m - 3.407s,PASSED
+"click(findTestObject(""Object Repository/Page_Shopping Cart/button_Update""))",Chrome 94.0.4606.71,,,2021-10-06 08:30:30,2021-10-06 08:30:31,0.625s,PASSED

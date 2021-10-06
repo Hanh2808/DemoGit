@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Customer Login/div_This is a required field_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Shopping Cart/input_500.00_cart163965qty",
+      "brokenLocator": "//input[@name\u003d\u0027cart[163965][qty]\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[@id\u003d\u0027shopping-cart-table\u0027]/tbody/tr/td[4]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Shopping Cart/input_500.00_cart163965qty_idRelative.png"
     }
   ]
 }

@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://live.techpanda.org/index.php/')
+
+WebUI.click(findTestObject('Object Repository/Page_Home page/a_Mobile'))
+
+WebUI.click(findTestObject('Object Repository/Page_Mobile/button_Add to Cart'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Shopping Cart/input_500.00_cart163965qty'), edit)
+
+WebUI.click(findTestObject('Object Repository/Page_Shopping Cart/button_Update'))
+
